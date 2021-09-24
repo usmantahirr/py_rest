@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{% block title %}Home{% endblock %}</title>
+  </head>
+  <body>
+    <nav>
+      <a id="Home" href="/">Home</a>
+      <a id="login" href="/login">Login</a>
+      <a id="Signup" href="/signup">Signup</a>
+      <a id="Logout" href="/logout">Logout</a>
+    </nav>
+    {% block content %}
+      Content Goes Here
+    {% endblock content %}
+  </body>
+</html>
