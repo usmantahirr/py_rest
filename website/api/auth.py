@@ -16,7 +16,7 @@ users = [
 def get_item(id):
     user = None
     for u in users:
-        if (u['id'] == id):
+        if u['id'] == id:
             user = u
     return user
 
