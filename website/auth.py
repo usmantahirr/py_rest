@@ -19,3 +19,8 @@ def sign_up():
         email = request.form.get('email')
         return email
     return render_template('signup.html')
+
+
+@auth.route('/destroy')
+def destroy():
+    return "<h2>This isn't the right way but destroyed</h2>"
